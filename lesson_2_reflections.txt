@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git initializes a repository and awaits new commits. It is necessary for git to know what directory(ies) to track.
+
