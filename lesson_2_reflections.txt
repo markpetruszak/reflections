@@ -1,3 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 Git initializes a repository and awaits new commits. It is necessary for git to know what directory(ies) to track.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is temporary storage and gives one time to logically group commits.
+
