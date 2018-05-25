@@ -4,4 +4,9 @@ When you want to share your work with others or collaborate with others on a pro
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 The project may not be at a point to share with the public. As well, you may want to wait until a logical block is completed.
 
- 
+ Describe the differences between forks, clones, and branches. When would you use one instead of another?
+ Branches happen only on a local machine and are used when experimenting or adding new features.
+ Clone takes place between GitHub and a local machine and makes a complete copy of a project.  It can
+ also take place on a local machine in case you may want to make another copy of the project.
+ A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+ Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
