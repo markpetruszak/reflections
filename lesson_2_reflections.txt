@@ -4,3 +4,18 @@ Git initializes a repository and awaits new commits. It is necessary for git to 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is temporary storage and gives one time to logically group commits.
 
+How can you use the staging area to make sure you have one commit per logical change?
+Use "git diff", "git diff --staged" and "git diff commit1 commit2" to see what files will be affected by the commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When developing experimental features or otherwise making changes that you don't want to commit to the master branch.
+
+How do the diagrams help you visualize the branch structure?
+They show all commits for each branch starting from the most recent.  It will also show unreachable commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+They now are edited as one even though they were created separately.  To show the history of their creation.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It makes sure that any conflicts are resolved before the merge takes place.
+
